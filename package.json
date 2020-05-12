@@ -1,0 +1,15 @@
+{
+  "name": "madlibs-website",
+  "version": "1.0.0",
+  "description": "This is a information website about the cutest couple ever.",
+  "main": "app.js",
+  "dependencies": {},
+  "devDependencies": {
+    "node-sass": "^4.14.1"
+  },
+  "scripts": {
+    "compile:sass": "node-sass sass/main.scss public/css/styles.css -w"
+  },
+  "author": "Mohammad Shadab",
+  "license": "ISC"
+}

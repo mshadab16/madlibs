@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="public\css\styles.css" />
+    <script src="app.js"></script>
+    <title>Madlibs Website</title>
+  </head>
+
+  <body>
+    <header class="header" id="home">
+        <div class="header__text-box">
+          <h1 class="heading-primary">
+              <span class="heading-primary--main">Welcome to Madlibs Website</span>
+              <span class="heading-primary--sub">Lets take you on a beautiful journey</span>
+          </h1>
+          <!-- <div class="heading-primary--sub" id="time-elapsed"></div> -->
+          </div>
+        </div>
+    </header>
+
+    <main>
+      <section class="about">
+        <div class="u-center-text u-margin-bottom-big">
+          <h2 class="heading-secondary">
+            We are just an ordinary couple with an extraordinary story
+          </h2>
+        </div>
+
+        <div class="row">
+          <div class="col-1-of-2">
+            <h3 class="heading-tertiary u-margin-bottom-small">
+              Our brief story
+            </h3>
+            <p class="paragraph">
+              We first met in 2015 in University lab and started dating in January 2016. 
+            </p>
+
+            <h3 class="heading-tertiary u-margin-bottom-small">
+              Our current situation
+            </h3>
+            <p class="paragraph">
+              Currently we are apart due to immigration issues. We are supposed to get back together very soon.
+            </p>
+            <p class="paragraph p-js">
+            Time apart so far: <span id="time-elapsed"></span>
+            </p>
+          </div>
+          <div class="col-1-of-2">
+            <div class="composition">
+              <img
+                src="public/images/rome.jpg"
+                alt="Photo 1"
+                class="composition__photo composition__photo--p1"
+              />
+              <img
+                src="public/images/agra.jpg"
+                alt="Photo 2"
+                class="composition__photo composition__photo--p2"
+              />
+              <img
+                src="public/images/paris.jpg"
+                alt="Photo 3"
+                class="composition__photo composition__photo--p3"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
